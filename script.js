@@ -375,13 +375,13 @@ const grades = [
 const tomos = [
     { id: "tomo-i", name: "Tomo I", icon: "fas fa-book", type: "regular" },
     { id: "tomo-ii", name: "Tomo II", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" },
+    { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" }
+    /*{ id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" },
     { id: "tomo-v", name: "Tomo V", icon: "fas fa-book", type: "regular" },
     { id: "tomo-vi", name: "Tomo VI", icon: "fas fa-book", type: "regular" },
     { id: "tomo-vii", name: "Tomo VII", icon: "fas fa-bolt", type: "intensivo" },
     { id: "tomo-viii", name: "Tomo VIII", icon: "fas fa-bolt", type: "intensivo" },
-    { id: "tomo-ix", name: "Tomo IX", icon: "fas fa-bolt", type: "intensivo" }
+    { id: "tomo-ix", name: "Tomo IX", icon: "fas fa-bolt", type: "intensivo" }*/
 ];
 
 // Generar las secciones (capítulos + RETRO) para cada tomo
