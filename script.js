@@ -89,36 +89,40 @@ const driveLinks = {
             },
         "tomo-iii": {
             "cap9": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1C5UsbyDn5bjV69uSAYcCqzdj1znx7VQQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1nFy11OEpNnuKan2bBo7jOOQ17W6Svcw5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
+                21: "https://docs.google.com/presentation/d/1vZSsZytFss1burSkykICC448B_WVs04L/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química parctica
+                16: "https://docs.google.com/presentation/d/19CGhRHLDB5drTu3ybtKNGBPxsQpCIH7y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1xB0nuArNsQIl2KMrUlvIdWjiIo8QDiAF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1mIRHVSa0iej4UzlXltClhEBuJeju9t58/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1Q-YCWlONzuvksHnH7S35yc2217vAQrmA/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap10": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1NX4tQ61hEac6JU0lpTugxWM_k4zPi0cD/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1yOiuirHrbHJzSrPl1nFeNddfvdFg_qdH/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
+                21: "https://docs.google.com/presentation/d/1QkIlXE6DUv3oAoNmpMla2KG4mYCSp7xR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
+                16: "https://docs.google.com/presentation/d/1JF-Zqh0rMRpGNtqA3usP4MwS5dbIDjy3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1Qd0Ys7cCraqg7zpb9Laos0lVuWp7KKfC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1VMk6ICsf3DK43lJciX_7FKpQri_geAc6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1AtpYmD5pk8m0fjvvJ_Y0eSyfll2OJSr3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap11": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Fnw7n7t-IZ4CXR4vCnwMo87i3IuxAKMb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1kZivHxurVaCS0rSV7pPKfgZ1Rwcgs0tt/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
+                21: "https://docs.google.com/presentation/d/1D9Tj9eIvFe7dicSFppXA8AEyUWc8T5kr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química practica
+                16: "https://docs.google.com/presentation/d/19w0xdhrSOU0t8Xt3h-9plsG_Hiwz36H_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1W0SwWAS7uvsPkUukSJHewY51tSvqYml0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1bXdFWn5gGzSn0-PHreCBPE_eCcgYHYTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1Y-7sV5qra_NvjVNimgGcDeUNzcFj797y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap12": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1igb9_-2XJ2OML5Kr3oC-ZFw6OhabPbEh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1kxAIPGFntKC_c_REhvBhb0YraHCsFLg4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
+                21: "https://docs.google.com/presentation/d/17AoSALVTI6J9mThFAmEfs0o4o5mgat7D/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
+                16: "https://docs.google.com/presentation/d/1JSnV7DYKum9abesapklBHQCQiJNdq-hS/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1cLVu-DwDIMjUqQMUEXBu-YcjVCZ5sWOh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1qyjeqUPMLbsFrtsSZPJNI3qWp6u3Zb9S/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/17O3ncn1awuwqchv5u8SHhw1o3F2gLCF9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             }
         },
         "tomo-iv": {
