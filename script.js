@@ -127,12 +127,13 @@ const driveLinks = {
         },
         "tomo-iv": {
             "cap13": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Ga2g67eI0rAVF3iTcWhZddXpJWbfeWXT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1nI4F6nz545qy-LX5TTBTUK1jRmDJFC4s/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
+                21: "https://docs.google.com/presentation/d/10ZFI7C0RMOPBijNFCQdocrEBoBIZsxYe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
+                16: "https://docs.google.com/presentation/d/1LauqhSz8zsH1zHbRfejhYRLVkg839W0x/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1OQ2QrSVaSDSSFNJM1HO2DgwMI1aNXvPT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1L0OOYPStqIO8WKyFQLUEhpv7wepTqgJq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1dSZ5vFt_esG7zT-sGPNI1Ewo4v4iG32p/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap14": {
                 14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
@@ -375,8 +376,8 @@ const grades = [
 const tomos = [
     { id: "tomo-i", name: "Tomo I", icon: "fas fa-book", type: "regular" },
     { id: "tomo-ii", name: "Tomo II", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" }
-    /*{ id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" },
+    { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" },
+    { id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" }
     { id: "tomo-v", name: "Tomo V", icon: "fas fa-book", type: "regular" },
     { id: "tomo-vi", name: "Tomo VI", icon: "fas fa-book", type: "regular" },
     { id: "tomo-vii", name: "Tomo VII", icon: "fas fa-bolt", type: "intensivo" },
