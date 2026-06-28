@@ -136,28 +136,31 @@ const driveLinks = {
                 20: "https://docs.google.com/presentation/d/1dSZ5vFt_esG7zT-sGPNI1Ewo4v4iG32p/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap14": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Rmsn9AYd9bPNvA3Okbr6dGw7bnCRxO16/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1Mi9fBOoGH2DnVpxnyeKtrtUlu5qHCuiI/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true";
+                16: "https://docs.google.com/presentation/d/1fFCKbzCXC65ut3GbLfrxvDtYuqmaB98Y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1APupbBxJloEAbaIBKUJ98YH0a3OA9z6k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/12bNroZI4D6U37dAT2d7Yu3JANN7TSNRJ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap15": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1cAMVXH2hg0QDiCF8ZMiVZUNs1o9Wa4MV/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1bAyCCnKVmnzN8xCfnz03NYCxnEEQ1bv0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/11schqZG35TvlWyPaRzimUTt1oQ5Y6knO/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true";
+                16: "https://docs.google.com/presentation/d/1QwGJF9Wp1-kMO9LjlVQBzgtpWZfpSbtQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "hhttps://docs.google.com/presentation/d/1Y-4pVwI_hXtPuWaaShyQSscTMIrpSWPk/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1kFQgOABUc2ckXpkAr8xRt4afgFJmtRwP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1Vu7y-5RtTHeQC3ka6I7dNi3gdrsv6nuT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap16": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Wg11RQaRlq-bsH2ypQ8-9o-fp5Lwi5r3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1NMh5yTr4EADmNhSXhYZtHwba0CY-5zOQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1FnUSupO9Q1fdJ7YkCHeCLpOGvNATLWhG/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true";
+                16: "https://docs.google.com/presentation/d/1zBI-OlulQKeOHPerlpV0QSYRwAwEiYra/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/14vmEw9I0Bp1gmb3vCC8s2lwj9pcN20o8/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1wTs1q4Apiyr1s3zsET5_AU3irlk427bP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1l1T19Zl4Eue3E571T4-1fjTLbeJYJ518/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
                 }
             },
         "tomo-v": {
