@@ -203,36 +203,40 @@ const driveLinks = {
             },
         "tomo-vi": {
             "cap21": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1lLT0fgUZbobFqPQlEiY5cc0hXqL4pSIL/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1CUZy5CA9oFBDcGdd92oe7JRJCuTxNcHr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1VNISAJXr4aDSruZgQedzX1Cl2uivuX9o/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1e5UBGnerx78q68puRG3VIWVrTHHuzbO7/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1811dXU4CvZe8phRWbWYs3CuZm8bXz37A/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1j5whyKmdHE5K1GpiqpDjAaiazn4UhRvm/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1zG6aUBAJhv0OVeK_ZyKbskFYs100XWlc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap22": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1_dbjXzP1aiqSIdI31Pm9U3IPNhay4wwp/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1WjZQs2I7H0m7Le1IhR7VzqEsKythYca4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1H7C53x9aODLEaz3yLvno7Zsq9W77I0aP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/13uBJWL02pZRR-UTYgiIk6ltRaDPyXSd0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1KPj45VECjk4OghyiFPrde5zj6sbLKdAn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1hjfkPSqfPMLaVZFaVUSknRL1TkyyXipc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1jcxSHvOVHC3AokH6o4MiVSn9wOv_B8-d/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap23": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1w5-DHLn5xUArR9mMxLGqkF2OannUKJFY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1l7QvjT3BztrkEit7ZY-ftyJEnEUcrnTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1NBZa4_WMXWAwYcfY5JK1cE5rcEqOi6nz/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/13PqcwDHcP3T14RPvcWjmFXkbrcqb3eT1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1_esBCctFtxYYPdjHjdUQdxKnJgTMbdTd/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1gGG9CdR-V4eI4i3fIOQ1ecieu0ypwMx9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1nwFVZK9nbOgSRoI3gsWhcvs3ro-e9jQg/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
             "cap24": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1NOos5S6BCMbqt8UhA55puOw7hu6C59lz/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
+                15: "https://docs.google.com/presentation/d/1C6K49VXHelnKYAM3aX1Vh3DW-leiT9Ti/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                21: "https://docs.google.com/presentation/d/1m2ZXfDmaEmgqOAqmOD9aUqwFHdJ4TUOP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1igUBTDNjuXI_fKuhs4gfYgRInw69v1T9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
+                17: "https://docs.google.com/presentation/d/1jSyPbDq34NI8HXHFm0-qivVmP3JYBF_e/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
+                18: "https://docs.google.com/presentation/d/1huhhANPGqkjHThZfe_JL30BHoNU1SSAx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
+                20: "https://docs.google.com/presentation/d/1y96nvy69_oL4S6p7ixtASHo_rQtM4ZxC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
                 }
             },
         "tomo-vii": {
@@ -385,9 +389,9 @@ const tomos = [
     { id: "tomo-ii", name: "Tomo II", icon: "fas fa-book", type: "regular" },
     { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" },
     { id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-v", name: "Tomo V", icon: "fas fa-book", type: "regular" }
-    /*{ id: "tomo-vi", name: "Tomo VI", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-vii", name: "Tomo VII", icon: "fas fa-bolt", type: "intensivo" },
+    { id: "tomo-v", name: "Tomo V", icon: "fas fa-book", type: "regular" },
+    { id: "tomo-vi", name: "Tomo VI", icon: "fas fa-book", type: "regular" }
+    /*{ id: "tomo-vii", name: "Tomo VII", icon: "fas fa-bolt", type: "intensivo" },
     { id: "tomo-viii", name: "Tomo VIII", icon: "fas fa-bolt", type: "intensivo" },
     { id: "tomo-ix", name: "Tomo IX", icon: "fas fa-bolt", type: "intensivo" }*/
 ];
