@@ -240,7 +240,7 @@ const driveLinks = {
                 }
             },
         "tomo-vii": {
-            "cap1": {
+            "cap25": {
                 14: "https://docs.google.com/presentation/d/1jB69x0C0wM31cHMdOGy87oSmNiuISyK1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
                 15: "https://docs.google.com/presentation/d/10zqXQ16Ksgv_3UjjZEHwXwy4m1-xbMuE/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
                 21: "https://docs.google.com/presentation/d/1OviSYFS9TckFDwlmKEo7sx9rLUGKnk2r/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
@@ -249,7 +249,7 @@ const driveLinks = {
                 18: "https://docs.google.com/presentation/d/1wahT3dp0arpzDk84rXSAiMCXhTwkTdKR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
                 20: "https://docs.google.com/presentation/d/1LlWwHf4xsvGwBRTxM1pvqb8BmFI4CdS5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
-            "cap2": {
+            "cap26": {
                 14: "https://docs.google.com/presentation/d/1Ix9oKQqg4VOooOEdw8qWA298oDSPJQca/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
                 15: "https://docs.google.com/presentation/d/1UcuUr40IXP7-71vv2SwkUpH5JmV4uQnR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
                 21: "https://docs.google.com/presentation/d/1PXz2wYY1W318KFDbYffy-uQzX_VMxR0G/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
@@ -258,7 +258,7 @@ const driveLinks = {
                 18: "https://docs.google.com/presentation/d/1LIQyo1y9XufFu4DUR3b1Kywe3_ZcRlt9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
                 20: "https://docs.google.com/presentation/d/1sNEQhMxstgSus8fvHEo1JcOXdPN5n1Tj/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
-            "cap3": {
+            "cap27": {
                 14: "https://docs.google.com/presentation/d/19g22BA5CVWMyRTVp0PN7En7nrcWtboc1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
                 15: "https://docs.google.com/presentation/d/1J9IkeZA_ADbDYRaDLS_4_Wx-gDcTlDOB/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
                 21: "https://docs.google.com/presentation/d/1D4si1KOKEbb2q1GBK0BCDa76-P5B1EWF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
@@ -267,7 +267,7 @@ const driveLinks = {
                 18: "https://docs.google.com/presentation/d/1SJlk04aAzCoBUTQIrHypuoz-7WNBU11k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
                 20: "https://docs.google.com/presentation/d/16Jz8DoEezPF9gLF-9bzQXR3-CzVTrRCR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
             },
-            "cap4": {
+            "cap28": {
                 14: "https://docs.google.com/presentation/d/1eQgC2y2ho4WpgaMkomcwB440Xohg4yt_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
                 15: "https://docs.google.com/presentation/d/1hUdNjCZxBM188ezZLYRIc_OsFnhCNXb3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
                 21: "https://docs.google.com/presentation/d/1vvlZEXVBSE8JT-yqSBUpZtXEuF8D1ZtF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
