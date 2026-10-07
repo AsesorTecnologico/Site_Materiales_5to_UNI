@@ -4,369 +4,458 @@
 // Estructura: driveLinks[grado][tomo][seccion][idCurso] = "URL"
 // grados: "1ro", "2do", "3ro", "4to", "5to"
 // tomos: "tomo-i", "tomo-ii", "tomo-iii", "tomo-iv", "tomo-v", "tomo-vi", "tomo-vii", "tomo-viii"
-// secciones: "cap1", "cap2", "cap3", "retro" (los números de capítulos se ajustan según tomo)
-// idCurso: del 1 al 20 (ver lista de cursos más abajo)
-//
-// INSTRUCCIONES: Reemplaza las URL de ejemplo con tus enlaces reales de Drive.
-// Puedes copiar y pegar tantas líneas como necesites.
+// secciones: "cap1", "cap2", "cap3", "retro"
+// idCurso: del 1 al 20
 // ============================================================
 
 const driveLinks = {
-    
-    // ========== 5TO PRE ==========
+
+    // ========== 5TO UNI ==========
     "5touni": {
+
+        // ====================================================
+        // TOMO I → CAPÍTULOS 1 - 4
+        // ====================================================
         "tomo-i": {
             "cap1": {
-                14: "https://docs.google.com/presentation/d/1Huuy2pFAk1uSv8HcBAD6D9dG8yeicbt6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1zp_8T2NXvj-EAh587PsIJpxEjBD8KoLd/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teo
-                21: "https://docs.google.com/presentation/d/1P9ywb2JWL-1R96rlB4SeGc3HZ28xttzC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química pract
-                16: "https://docs.google.com/presentation/d/1ZujZwla8-rE0vDRthnrliN6DH-4_8-aP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1WYCayRX5g4686bWvWmWfcLIK5eVJxZax/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=truee", // Aritmética
-                18: "https://docs.google.com/presentation/d/1kyCANoxxfyU9FaYkGTx94reO2S5B1euN/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1llC9DxD1DlDnrUxcd3dD8aGbOzmnOWvw/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Huuy2pFAk1uSv8HcBAD6D9dG8yeicbt6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1zp_8T2NXvj-EAh587PsIJpxEjBD8KoLd/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1P9ywb2JWL-1R96rlB4SeGc3HZ28xttzC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1ZujZwla8-rE0vDRthnrliN6DH-4_8-aP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1WYCayRX5g4686bWvWmWfcLIK5eVJxZax/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1kyCANoxxfyU9FaYkGTx94reO2S5B1euN/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1llC9DxD1DlDnrUxcd3dD8aGbOzmnOWvw/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap2": {
-                14: "https://docs.google.com/presentation/d/1zjfaPhY6h4o-Mq2YNxmEbPJ6BG8Dvevu/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1uNvCxOVumMRj8SpSwQqks2p5vtKsQ39V/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teo
-                21: "https://docs.google.com/presentation/d/1Fnjc4yieLqlLjb_ndtb4sYFFghqYId27/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química pract
-                16: "https://docs.google.com/presentation/d/1RT5ss3dO2ESUT3Blx53NBN8YxV_wf4pv/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1KQIQh8F1X8pIbajOlWg0bcC3YUJRK5cs/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1jCN9Y62AJxc_4eFwPe2io7wKvV9MCrN_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1oPB2XXt37IbCCKx0fIOqbOdmyGVgoDuY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1zjfaPhY6h4o-Mq2YNxmEbPJ6BG8Dvevu/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1uNvCxOVumMRj8SpSwQqks2p5vtKsQ39V/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1Fnjc4yieLqlLjb_ndtb4sYFFghqYId27/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1RT5ss3dO2ESUT3Blx53NBN8YxV_wf4pv/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1KQIQh8F1X8pIbajOlWg0bcC3YUJRK5cs/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1jCN9Y62AJxc_4eFwPe2io7wKvV9MCrN_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1oPB2XXt37IbCCKx0fIOqbOdmyGVgoDuY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap3": {
-                14: "https://docs.google.com/presentation/d/1hfvsNDU1b5Q8Wyu3xHqIFRqaaDnOIX1g/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1tmJCXMzA15sZrMJl-mtH8MB58INeBTJq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teo
-                21: "https://docs.google.com/presentation/d/1s1TDUsd-UxSftnVfc1oL3ht1PXqtwChZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química pract
-                16: "https://docs.google.com/presentation/d/141VODR7X3hkVVsTh1IPe2pbP3hy9ldf6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/15kRKolXhqm3HP_dyl1pvDzNeLT3AU5bs/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/14UWoNYFgwx_BBjBU1U7AH0Tbc2rZcmuq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1t9IitTQs-TEY2rHEqqxYG8MwIhAPJRTT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1hfvsNDU1b5Q8Wyu3xHqIFRqaaDnOIX1g/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1tmJCXMzA15sZrMJl-mtH8MB58INeBTJq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1s1TDUsd-UxSftnVfc1oL3ht1PXqtwChZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/141VODR7X3hkVVsTh1IPe2pbP3hy9ldf6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/15kRKolXhqm3HP_dyl1pvDzNeLT3AU5bs/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/14UWoNYFgwx_BBjBU1U7AH0Tbc2rZcmuq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1t9IitTQs-TEY2rHEqqxYG8MwIhAPJRTT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap4": {
-                14: "https://docs.google.com/presentation/d/1UHRl0OG-Fg7zy6P6niDVpEYd7b43tr-d/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1JTK98UJHUSnAKBR1H94KJiHH2s20oFEq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teo
-                21: "https://docs.google.com/presentation/d/1WTwTrBiBrr_F-ZLh3UcXOVBn9fc009g1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química pract
-                16: "https://docs.google.com/presentation/d/1aqHV09QNLKRAEv106_SXVmGSGfjDFV1C/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1hJSWyR-aiYMkZNrvOSQvm19hba_9sABu/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1qlmwZlf6euDqkku-YFe3QZxHjvSwp3BM/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1w0SbtqkFVC6YDA-PVUOdYY-dXgPW0AFe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1UHRl0OG-Fg7zy6P6niDVpEYd7b43tr-d/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1JTK98UJHUSnAKBR1H94KJiHH2s20oFEq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1WTwTrBiBrr_F-ZLh3UcXOVBn9fc009g1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1aqHV09QNLKRAEv106_SXVmGSGfjDFV1C/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1hJSWyR-aiYMkZNrvOSQvm19hba_9sABu/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1qlmwZlf6euDqkku-YFe3QZxHjvSwp3BM/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1w0SbtqkFVC6YDA-PVUOdYY-dXgPW0AFe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             }
         },
+
+        // ====================================================
+        // TOMO II → CAPÍTULOS 5 - 8
+        // ====================================================
         "tomo-ii": {
             "cap5": {
-                14: "https://docs.google.com/presentation/d/1_-7lk2E0oAA7gQ3NZ79SVLg8imRh_Iji/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1KgkmC0D_SVLuY7A5vMMXNw4W2nz0QCWr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                16: "https://docs.google.com/presentation/d/1IRPzk0xV8CL3C3C4jdqmmRLXhK1xlcDF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1gAG76V0jZ3X_yhz8f-9aTHzzDW4XPOwJ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1mIHCLw1cZBc9Xy39IUvR13vaMCpW1JTL/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1SfI4fRaD2QIQR7dMk_pPAWVmzycBK-jp/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1_-7lk2E0oAA7gQ3NZ79SVLg8imRh_Iji/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1KgkmC0D_SVLuY7A5vMMXNw4W2nz0QCWr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1IRPzk0xV8CL3C3C4jdqmmRLXhK1xlcDF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1gAG76V0jZ3X_yhz8f-9aTHzzDW4XPOwJ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1mIHCLw1cZBc9Xy39IUvR13vaMCpW1JTL/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1SfI4fRaD2QIQR7dMk_pPAWVmzycBK-jp/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap6": {
-                14: "https://docs.google.com/presentation/d/1imUOvOfnUHlRwZNgqg-ascKFCtc0j1Ou/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1Zc7FcYUjwlY_u1kReXuS_5f4Yy5jglgf/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                16: "https://docs.google.com/presentation/d/1W8f-fZ8_YT3b9HgyUqFi8El9DD9dIqTN/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1fqJQVOm9hxZ4iWKESUffCH42Fzc4efqx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1dRuIh8NoWL0C3yS8qAvxsTEb71FRe0PZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1tvLa1GhLmB_j0TUrc3sWlx8p8EBZE_AU/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1imUOvOfnUHlRwZNgqg-ascKFCtc0j1Ou/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1Zc7FcYUjwlY_u1kReXuS_5f4Yy5jglgf/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1W8f-fZ8_YT3b9HgyUqFi8El9DD9dIqTN/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1fqJQVOm9hxZ4iWKESUffCH42Fzc4efqx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1dRuIh8NoWL0C3yS8qAvxsTEb71FRe0PZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1tvLa1GhLmB_j0TUrc3sWlx8p8EBZE_AU/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap7": {
-                14: "https://docs.google.com/presentation/d/15hF7CITkKVHydzc0yJC-AWFnRJNYc-ew/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1CGkgkCs2Qpxk9TxbDlekPihDov1N-7UQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                16: "https://docs.google.com/presentation/d/1-VYMhuRA56pYvIDX3HmrqtGe_rrwjPr-/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1y_83p30ClGFT4-o0YS3MzrIhDbEwzDnK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1R2GBJ6dy9C6hiZkM7lnSHZR1cbUz7ufK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/17SpuXW8ibwtHFNUD5ve6aKy6xWHPtuJ2/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/15hF7CITkKVHydzc0yJC-AWFnRJNYc-ew/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1CGkgkCs2Qpxk9TxbDlekPihDov1N-7UQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1-VYMhuRA56pYvIDX3HmrqtGe_rrwjPr-/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1y_83p30ClGFT4-o0YS3MzrIhDbEwzDnK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1R2GBJ6dy9C6hiZkM7lnSHZR1cbUz7ufK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/17SpuXW8ibwtHFNUD5ve6aKy6xWHPtuJ2/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap8": {
-                14: "https://docs.google.com/presentation/d/1mzuOpEW-dSyxkDIgvPMHSeqVNFZRMkja/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1QczBYnO-uE0amQTkXM4HzDQp9hDH_tUb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                16: "https://docs.google.com/presentation/d/1fIXTu3VRf4hdQw70ABbUYn9smBnvTZeK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1sSsBPKQZJuqYHe72Qs_GWeZeKSNkYQFb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1FP_jaN7TWwnjc4Eu6EKDCvt-sR6pcbhQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1YTm_nT2ft-9oRa_FoBbdtrhkBHA90J_z/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-                }
-            },
-        "tomo-iii": {
-            "cap9": {
-                14: "https://docs.google.com/presentation/d/1C5UsbyDn5bjV69uSAYcCqzdj1znx7VQQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1nFy11OEpNnuKan2bBo7jOOQ17W6Svcw5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
-                21: "https://docs.google.com/presentation/d/1vZSsZytFss1burSkykICC448B_WVs04L/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química parctica
-                16: "https://docs.google.com/presentation/d/19CGhRHLDB5drTu3ybtKNGBPxsQpCIH7y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1xB0nuArNsQIl2KMrUlvIdWjiIo8QDiAF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1mIRHVSa0iej4UzlXltClhEBuJeju9t58/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1Q-YCWlONzuvksHnH7S35yc2217vAQrmA/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap10": {
-                14: "https://docs.google.com/presentation/d/1NX4tQ61hEac6JU0lpTugxWM_k4zPi0cD/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1yOiuirHrbHJzSrPl1nFeNddfvdFg_qdH/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
-                21: "https://docs.google.com/presentation/d/1QkIlXE6DUv3oAoNmpMla2KG4mYCSp7xR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
-                16: "https://docs.google.com/presentation/d/1JF-Zqh0rMRpGNtqA3usP4MwS5dbIDjy3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1Qd0Ys7cCraqg7zpb9Laos0lVuWp7KKfC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1VMk6ICsf3DK43lJciX_7FKpQri_geAc6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1AtpYmD5pk8m0fjvvJ_Y0eSyfll2OJSr3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap11": {
-                14: "https://docs.google.com/presentation/d/1Fnw7n7t-IZ4CXR4vCnwMo87i3IuxAKMb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1kZivHxurVaCS0rSV7pPKfgZ1Rwcgs0tt/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
-                21: "https://docs.google.com/presentation/d/1D9Tj9eIvFe7dicSFppXA8AEyUWc8T5kr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química practica
-                16: "https://docs.google.com/presentation/d/19w0xdhrSOU0t8Xt3h-9plsG_Hiwz36H_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1W0SwWAS7uvsPkUukSJHewY51tSvqYml0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1bXdFWn5gGzSn0-PHreCBPE_eCcgYHYTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1Y-7sV5qra_NvjVNimgGcDeUNzcFj797y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap12": {
-                14: "https://docs.google.com/presentation/d/1igb9_-2XJ2OML5Kr3oC-ZFw6OhabPbEh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1kxAIPGFntKC_c_REhvBhb0YraHCsFLg4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
-                21: "https://docs.google.com/presentation/d/17AoSALVTI6J9mThFAmEfs0o4o5mgat7D/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
-                16: "https://docs.google.com/presentation/d/1JSnV7DYKum9abesapklBHQCQiJNdq-hS/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1cLVu-DwDIMjUqQMUEXBu-YcjVCZ5sWOh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1qyjeqUPMLbsFrtsSZPJNI3qWp6u3Zb9S/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/17O3ncn1awuwqchv5u8SHhw1o3F2gLCF9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1mzuOpEW-dSyxkDIgvPMHSeqVNFZRMkja/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1QczBYnO-uE0amQTkXM4HzDQp9hDH_tUb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1fIXTu3VRf4hdQw70ABbUYn9smBnvTZeK/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1sSsBPKQZJuqYHe72Qs_GWeZeKSNkYQFb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1FP_jaN7TWwnjc4Eu6EKDCvt-sR6pcbhQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1YTm_nT2ft-9oRa_FoBbdtrhkBHA90J_z/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             }
         },
+
+        // ====================================================
+        // TOMO III → CAPÍTULOS 9 - 12
+        // ====================================================
+        "tomo-iii": {
+            "cap9": {
+                14: "https://docs.google.com/presentation/d/1C5UsbyDn5bjV69uSAYcCqzdj1znx7VQQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1nFy11OEpNnuKan2bBo7jOOQ17W6Svcw5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1vZSsZytFss1burSkykICC448B_WVs04L/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/19CGhRHLDB5drTu3ybtKNGBPxsQpCIH7y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1xB0nuArNsQIl2KMrUlvIdWjiIo8QDiAF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1mIRHVSa0iej4UzlXltClhEBuJeju9t58/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1Q-YCWlONzuvksHnH7S35yc2217vAQrmA/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            },
+
+            "cap10": {
+                14: "https://docs.google.com/presentation/d/1NX4tQ61hEac6JU0lpTugxWM_k4zPi0cD/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1yOiuirHrbHJzSrPl1nFeNddfvdFg_qdH/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1QkIlXE6DUv3oAoNmpMla2KG4mYCSp7xR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1JF-Zqh0rMRpGNtqA3usP4MwS5dbIDjy3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1Qd0Ys7cCraqg7zpb9Laos0lVuWp7KKfC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1VMk6ICsf3DK43lJciX_7FKpQri_geAc6/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1AtpYmD5pk8m0fjvvJ_Y0eSyfll2OJSr3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            },
+
+            "cap11": {
+                14: "https://docs.google.com/presentation/d/1Fnw7n7t-IZ4CXR4vCnwMo87i3IuxAKMb/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1kZivHxurVaCS0rSV7pPKfgZ1Rwcgs0tt/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1D9Tj9eIvFe7dicSFppXA8AEyUWc8T5kr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/19w0xdhrSOU0t8Xt3h-9plsG_Hiwz36H_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1W0SwWAS7uvsPkUukSJHewY51tSvqYml0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1bXdFWn5gGzSn0-PHreCBPE_eCcgYHYTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1Y-7sV5qra_NvjVNimgGcDeUNzcFj797y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            },
+
+            "cap12": {
+                14: "https://docs.google.com/presentation/d/1igb9_-2XJ2OML5Kr3oC-ZFw6OhabPbEh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1kxAIPGFntKC_c_REhvBhb0YraHCsFLg4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/17AoSALVTI6J9mThFAmEfs0o4o5mgat7D/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1JSnV7DYKum9abesapklBHQCQiJNdq-hS/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1cLVu-DwDIMjUqQMUEXBu-YcjVCZ5sWOh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1qyjeqUPMLbsFrtsSZPJNI3qWp6u3Zb9S/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/17O3ncn1awuwqchv5u8SHhw1o3F2gLCF9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            }
+        },
+
+        // ====================================================
+        // TOMO IV → CAPÍTULOS 13 - 16
+        // ====================================================
         "tomo-iv": {
             "cap13": {
-                14: "https://docs.google.com/presentation/d/1Ga2g67eI0rAVF3iTcWhZddXpJWbfeWXT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1nI4F6nz545qy-LX5TTBTUK1jRmDJFC4s/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química teoria
-                21: "https://docs.google.com/presentation/d/10ZFI7C0RMOPBijNFCQdocrEBoBIZsxYe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química practica
-                16: "https://docs.google.com/presentation/d/1LauqhSz8zsH1zHbRfejhYRLVkg839W0x/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1OQ2QrSVaSDSSFNJM1HO2DgwMI1aNXvPT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1L0OOYPStqIO8WKyFQLUEhpv7wepTqgJq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1dSZ5vFt_esG7zT-sGPNI1Ewo4v4iG32p/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1Ga2g67eI0rAVF3iTcWhZddXpJWbfeWXT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1nI4F6nz545qy-LX5TTBTUK1jRmDJFC4s/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/10ZFI7C0RMOPBijNFCQdocrEBoBIZsxYe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1LauqhSz8zsH1zHbRfejhYRLVkg839W0x/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1OQ2QrSVaSDSSFNJM1HO2DgwMI1aNXvPT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1L0OOYPStqIO8WKyFQLUEhpv7wepTqgJq/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1dSZ5vFt_esG7zT-sGPNI1Ewo4v4iG32p/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap14": {
-                14: "https://docs.google.com/presentation/d/1Rmsn9AYd9bPNvA3Okbr6dGw7bnCRxO16/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1Rmsn9AYd9bPNvA3Okbr6dGw7bnCRxO16/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1Mi9fBOoGH2DnVpxnyeKtrtUlu5qHCuiI/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1fFCKbzCXC65ut3GbLfrxvDtYuqmaB98Y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1APupbBxJloEAbaIBKUJ98YH0a3OA9z6k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/12bNroZI4D6U37dAT2d7Yu3JANN7TSNRJ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                16: "https://docs.google.com/presentation/d/1fFCKbzCXC65ut3GbLfrxvDtYuqmaB98Y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1UdQIKVxciSmUXiy1n80Pm0AR8f-8lT-n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1APupbBxJloEAbaIBKUJ98YH0a3OA9z6k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/12bNroZI4D6U37dAT2d7Yu3JANN7TSNRJ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap15": {
-                14: "https://docs.google.com/presentation/d/1cAMVXH2hg0QDiCF8ZMiVZUNs1o9Wa4MV/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1bAyCCnKVmnzN8xCfnz03NYCxnEEQ1bv0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1cAMVXH2hg0QDiCF8ZMiVZUNs1o9Wa4MV/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1bAyCCnKVmnzN8xCfnz03NYCxnEEQ1bv0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/11schqZG35TvlWyPaRzimUTt1oQ5Y6knO/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1QwGJF9Wp1-kMO9LjlVQBzgtpWZfpSbtQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "hhttps://docs.google.com/presentation/d/1Y-4pVwI_hXtPuWaaShyQSscTMIrpSWPk/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1kFQgOABUc2ckXpkAr8xRt4afgFJmtRwP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1Vu7y-5RtTHeQC3ka6I7dNi3gdrsv6nuT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                16: "https://docs.google.com/presentation/d/1QwGJF9Wp1-kMO9LjlVQBzgtpWZfpSbtQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1Y-4pVwI_hXtPuWaaShyQSscTMIrpSWPk/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1kFQgOABUc2ckXpkAr8xRt4afgFJmtRwP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1Vu7y-5RtTHeQC3ka6I7dNi3gdrsv6nuT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap16": {
-                14: "https://docs.google.com/presentation/d/1Wg11RQaRlq-bsH2ypQ8-9o-fp5Lwi5r3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1NMh5yTr4EADmNhSXhYZtHwba0CY-5zOQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1Wg11RQaRlq-bsH2ypQ8-9o-fp5Lwi5r3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1NMh5yTr4EADmNhSXhYZtHwba0CY-5zOQ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1FnUSupO9Q1fdJ7YkCHeCLpOGvNATLWhG/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1zBI-OlulQKeOHPerlpV0QSYRwAwEiYra/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/14vmEw9I0Bp1gmb3vCC8s2lwj9pcN20o8/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1wTs1q4Apiyr1s3zsET5_AU3irlk427bP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1l1T19Zl4Eue3E571T4-1fjTLbeJYJ518/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-                }
-            },
+                16: "https://docs.google.com/presentation/d/1zBI-OlulQKeOHPerlpV0QSYRwAwEiYra/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/14vmEw9I0Bp1gmb3vCC8s2lwj9pcN20o8/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1wTs1q4Apiyr1s3zsET5_AU3irlk427bP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1l1T19Zl4Eue3E571T4-1fjTLbeJYJ518/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            }
+        },
+
+        // ====================================================
+        // TOMO V → CAPÍTULOS 17 - 20
+        // ====================================================
         "tomo-v": {
             "cap17": {
-                14: "https://docs.google.com/presentation/d/1GcpxdQb4f2fYbc6ED462wDdooPwZxI2B/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1otRzxbMM-VOYkiKoPofJ9Ufpt6BZ5eln/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1pIqneIpfZ6mAsSbHB8YZhh5asu7_URi-/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química
-                16: "https://docs.google.com/presentation/d/15YuldC94CXg2zJDYFaqlxwlFsDwMWPHo/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1zJrwuCEHj-4o8nN8ontRZ87Y4U_fK0OZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1FqY1tAjMVdTOip4dodwStlCfb5VW1mel/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1CITBN6GqyYa06LDNNgVkgjU9bl9kUqrv/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1GcpxdQb4f2fYbc6ED462wDdooPwZxI2B/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1otRzxbMM-VOYkiKoPofJ9Ufpt6BZ5eln/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1pIqneIpfZ6mAsSbHB8YZhh5asu7_URi-/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/15YuldC94CXg2zJDYFaqlxwlFsDwMWPHo/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1zJrwuCEHj-4o8nN8ontRZ87Y4U_fK0OZ/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1FqY1tAjMVdTOip4dodwStlCfb5VW1mel/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1CITBN6GqyYa06LDNNgVkgjU9bl9kUqrv/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap18": {
-                14: "https://docs.google.com/presentation/d/13VoKc1lKTZ6TNS5AXihgQZ5gd_8Uu5a9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1zOF0k6DzBR9K1_xqim6hrmccOm8Qyd0D/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1Rxz4tqQslc-Db8mdfySPo_R6vLdhy7vg/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química
-                16: "https://docs.google.com/presentation/d/1BTRQMx35T1Fy6SWtiSd2vok7ufAodwA2/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1EgGWWjdsRj6cmsSAbtERIsmtYxxFyjJF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1YdHOXGKEcXs9iYxWqarbQpodSIV1Y_hD/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1kgbQGCTT8QO07D98PZcUclcPhNI0Tl6Y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/13VoKc1lKTZ6TNS5AXihgQZ5gd_8Uu5a9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1zOF0k6DzBR9K1_xqim6hrmccOm8Qyd0D/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1Rxz4tqQslc-Db8mdfySPo_R6vLdhy7vg/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1BTRQMx35T1Fy6SWtiSd2vok7ufAodwA2/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1EgGWWjdsRj6cmsSAbtERIsmtYxxFyjJF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1YdHOXGKEcXs9iYxWqarbQpodSIV1Y_hD/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1kgbQGCTT8QO07D98PZcUclcPhNI0Tl6Y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap19": {
-                14: "https://docs.google.com/presentation/d/1-Zu9dXQDL2SODqItSmvsAC-KbPUmiZ2n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1XIzLeU5qyWpTkaPp75SbezvtxWbvyYtA/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1FZ_e34C0PYFXqcu7QsliEi3gCH0izm5y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química
-                16: "https://docs.google.com/presentation/d/1UxvS68_r1EurYMXfMupQ7UaIgVOTBig4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/179lak2gPVrJZAKbtw-Sa6emdhLDu7sdC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1aRWtWdfUAhqIIxhZF_fZ1VV6iuiH7zxi/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/12G3YAEUte-CRJPTVNhgDHp3_PSAOX1-y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                14: "https://docs.google.com/presentation/d/1-Zu9dXQDL2SODqItSmvsAC-KbPUmiZ2n/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1XIzLeU5qyWpTkaPp75SbezvtxWbvyYtA/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1FZ_e34C0PYFXqcu7QsliEi3gCH0izm5y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1UxvS68_r1EurYMXfMupQ7UaIgVOTBig4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/179lak2gPVrJZAKbtw-Sa6emdhLDu7sdC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1aRWtWdfUAhqIIxhZF_fZ1VV6iuiH7zxi/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/12G3YAEUte-CRJPTVNhgDHp3_PSAOX1-y/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap20": {
-                14: "https://docs.google.com/presentation/d/1saQcJPn-k0DA-kuonF2a9y383GGe-4IY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/10PwYzh0B4HMLkqna3RzXzuIM_TqF9eU_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1jyGFotIp0LbysxAM4jkl8C9CL67Yd3VI/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Química
-                16: "https://docs.google.com/presentation/d/1-q-arbZ2mE3B2m4z-lJLhZn9gUBWpgCY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1LsYVQVWjyGoM-k4k_Qqwuck0XvY7-X5z/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/13M2o5S7Y907AEN6Q16ipmLEFNVMiofgT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1CaVJ2G2v-RK06GGhGZSerp2oefJQZgRw/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-                }
-            },
+                14: "https://docs.google.com/presentation/d/1saQcJPn-k0DA-kuonF2a9y383GGe-4IY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/10PwYzh0B4HMLkqna3RzXzuIM_TqF9eU_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1jyGFotIp0LbysxAM4jkl8C9CL67Yd3VI/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1-q-arbZ2mE3B2m4z-lJLhZn9gUBWpgCY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1LsYVQVWjyGoM-k4k_Qqwuck0XvY7-X5z/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/13M2o5S7Y907AEN6Q16ipmLEFNVMiofgT/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1CaVJ2G2v-RK06GGhGZSerp2oefJQZgRw/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            }
+        },
+
+        // ====================================================
+        // TOMO VI → CAPÍTULOS 21 - 24
+        // ====================================================
         "tomo-vi": {
             "cap21": {
-                14: "https://docs.google.com/presentation/d/1lLT0fgUZbobFqPQlEiY5cc0hXqL4pSIL/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1CUZy5CA9oFBDcGdd92oe7JRJCuTxNcHr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1lLT0fgUZbobFqPQlEiY5cc0hXqL4pSIL/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1CUZy5CA9oFBDcGdd92oe7JRJCuTxNcHr/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1VNISAJXr4aDSruZgQedzX1Cl2uivuX9o/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1e5UBGnerx78q68puRG3VIWVrTHHuzbO7/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1811dXU4CvZe8phRWbWYs3CuZm8bXz37A/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1j5whyKmdHE5K1GpiqpDjAaiazn4UhRvm/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1zG6aUBAJhv0OVeK_ZyKbskFYs100XWlc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                16: "https://docs.google.com/presentation/d/1e5UBGnerx78q68puRG3VIWVrTHHuzbO7/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1811dXU4CvZe8phRWbWYs3CuZm8bXz37A/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1j5whyKmdHE5K1GpiqpDjAaiazn4UhRvm/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1zG6aUBAJhv0OVeK_ZyKbskFYs100XWlc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap22": {
-                14: "https://docs.google.com/presentation/d/1_dbjXzP1aiqSIdI31Pm9U3IPNhay4wwp/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1WjZQs2I7H0m7Le1IhR7VzqEsKythYca4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1_dbjXzP1aiqSIdI31Pm9U3IPNhay4wwp/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1WjZQs2I7H0m7Le1IhR7VzqEsKythYca4/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1H7C53x9aODLEaz3yLvno7Zsq9W77I0aP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/13uBJWL02pZRR-UTYgiIk6ltRaDPyXSd0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1KPj45VECjk4OghyiFPrde5zj6sbLKdAn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1hjfkPSqfPMLaVZFaVUSknRL1TkyyXipc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1jcxSHvOVHC3AokH6o4MiVSn9wOv_B8-d/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                16: "https://docs.google.com/presentation/d/13uBJWL02pZRR-UTYgiIk6ltRaDPyXSd0/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1KPj45VECjk4OghyiFPrde5zj6sbLKdAn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1hjfkPSqfPMLaVZFaVUSknRL1TkyyXipc/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1jcxSHvOVHC3AokH6o4MiVSn9wOv_B8-d/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap23": {
-                14: "https://docs.google.com/presentation/d/1w5-DHLn5xUArR9mMxLGqkF2OannUKJFY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1l7QvjT3BztrkEit7ZY-ftyJEnEUcrnTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1w5-DHLn5xUArR9mMxLGqkF2OannUKJFY/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1l7QvjT3BztrkEit7ZY-ftyJEnEUcrnTn/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1NBZa4_WMXWAwYcfY5JK1cE5rcEqOi6nz/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/13PqcwDHcP3T14RPvcWjmFXkbrcqb3eT1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1_esBCctFtxYYPdjHjdUQdxKnJgTMbdTd/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1gGG9CdR-V4eI4i3fIOQ1ecieu0ypwMx9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1nwFVZK9nbOgSRoI3gsWhcvs3ro-e9jQg/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
+                16: "https://docs.google.com/presentation/d/13PqcwDHcP3T14RPvcWjmFXkbrcqb3eT1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1_esBCctFtxYYPdjHjdUQdxKnJgTMbdTd/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1gGG9CdR-V4eI4i3fIOQ1ecieu0ypwMx9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1nwFVZK9nbOgSRoI3gsWhcvs3ro-e9jQg/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
+
             "cap24": {
-                14: "https://docs.google.com/presentation/d/1NOos5S6BCMbqt8UhA55puOw7hu6C59lz/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1C6K49VXHelnKYAM3aX1Vh3DW-leiT9Ti/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
+                14: "https://docs.google.com/presentation/d/1NOos5S6BCMbqt8UhA55puOw7hu6C59lz/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1C6K49VXHelnKYAM3aX1Vh3DW-leiT9Ti/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
                 21: "https://docs.google.com/presentation/d/1m2ZXfDmaEmgqOAqmOD9aUqwFHdJ4TUOP/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1igUBTDNjuXI_fKuhs4gfYgRInw69v1T9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1jSyPbDq34NI8HXHFm0-qivVmP3JYBF_e/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1huhhANPGqkjHThZfe_JL30BHoNU1SSAx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1y96nvy69_oL4S6p7ixtASHo_rQtM4ZxC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-                }
-            },
-        "tomo-vii": {
-            "cap1": {
-                14: "https://docs.google.com/presentation/d/1jB69x0C0wM31cHMdOGy87oSmNiuISyK1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/10zqXQ16Ksgv_3UjjZEHwXwy4m1-xbMuE/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1OviSYFS9TckFDwlmKEo7sx9rLUGKnk2r/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1ryxGLOzV3tzMGqxbjQaCTM6bKRnvBAVx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/17IoeR0t7uNLkffVBE5ZM8LJYP80kfNTe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1wahT3dp0arpzDk84rXSAiMCXhTwkTdKR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1LlWwHf4xsvGwBRTxM1pvqb8BmFI4CdS5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap2": {
-                14: "https://docs.google.com/presentation/d/1Ix9oKQqg4VOooOEdw8qWA298oDSPJQca/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1UcuUr40IXP7-71vv2SwkUpH5JmV4uQnR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1PXz2wYY1W318KFDbYffy-uQzX_VMxR0G/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1CP9Nemc63p-4CuFL089R5I02vZ7oEmB_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1povfGXkYD_ZN1jPiWfXgJUCWvAX8JDb9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1LIQyo1y9XufFu4DUR3b1Kywe3_ZcRlt9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1sNEQhMxstgSus8fvHEo1JcOXdPN5n1Tj/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap3": {
-                14: "https://docs.google.com/presentation/d/19g22BA5CVWMyRTVp0PN7En7nrcWtboc1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1J9IkeZA_ADbDYRaDLS_4_Wx-gDcTlDOB/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1D4si1KOKEbb2q1GBK0BCDa76-P5B1EWF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1_RelKiGwydx9PqSYJBYIn4t7wtU9kMog/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/16vYGRsc7pn_N2y1ClyQZdP0TmF8CbG0C/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/1SJlk04aAzCoBUTQIrHypuoz-7WNBU11k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/16Jz8DoEezPF9gLF-9bzQXR3-CzVTrRCR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-            },
-            "cap4": {
-                14: "https://docs.google.com/presentation/d/1eQgC2y2ho4WpgaMkomcwB440Xohg4yt_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",    // Física
-                15: "https://docs.google.com/presentation/d/1hUdNjCZxBM188ezZLYRIc_OsFnhCNXb3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Química
-                21: "https://docs.google.com/presentation/d/1vvlZEXVBSE8JT-yqSBUpZtXEuF8D1ZtF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
-                16: "https://docs.google.com/presentation/d/1g5O-a6nTEA7f9Cz1ks8XsM2YoA4t1auh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",   // Álgebra
-                17: "https://docs.google.com/presentation/d/1gJreTPj4jvL415ea2ttfKa5olywFrWgm/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Aritmética
-                18: "https://docs.google.com/presentation/d/12qp55dhz5b6F9OFag-QZTSUlOgAx7xQ9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true", // Geometría
-                20: "https://docs.google.com/presentation/d/1umZ0Nw_nw_7fG7H8lX2zTqMDwsrwEjJi/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true" // Trigonometría
-                }
-            },
-        "tomo-viii": {
-            "cap5": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
-            },
-            "cap6": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
-            },
-            "cap7": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
-            },
-            "cap8": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+                16: "https://docs.google.com/presentation/d/1igUBTDNjuXI_fKuhs4gfYgRInw69v1T9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1jSyPbDq34NI8HXHFm0-qivVmP3JYBF_e/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1huhhANPGqkjHThZfe_JL30BHoNU1SSAx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1y96nvy69_oL4S6p7ixtASHo_rQtM4ZxC/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             }
+        },
+
+        // ====================================================
+        // TOMO VII → CAPÍTULOS 25 - 28
+        // ====================================================
+        "tomo-vii": {
+            "cap25": {
+                14: "https://docs.google.com/presentation/d/1jB69x0C0wM31cHMdOGy87oSmNiuISyK1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/10zqXQ16Ksgv_3UjjZEHwXwy4m1-xbMuE/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1OviSYFS9TckFDwlmKEo7sx9rLUGKnk2r/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1ryxGLOzV3tzMGqxbjQaCTM6bKRnvBAVx/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/17IoeR0t7uNLkffVBE5ZM8LJYP80kfNTe/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1wahT3dp0arpzDk84rXSAiMCXhTwkTdKR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1LlWwHf4xsvGwBRTxM1pvqb8BmFI4CdS5/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
-        "tomo-ix": {
-            "cap9": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+
+            "cap26": {
+                14: "https://docs.google.com/presentation/d/1Ix9oKQqg4VOooOEdw8qWA298oDSPJQca/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1UcuUr40IXP7-71vv2SwkUpH5JmV4uQnR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1PXz2wYY1W318KFDbYffy-uQzX_VMxR0G/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1CP9Nemc63p-4CuFL089R5I02vZ7oEmB_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1povfGXkYD_ZN1jPiWfXgJUCWvAX8JDb9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1LIQyo1y9XufFu4DUR3b1Kywe3_ZcRlt9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1sNEQhMxstgSus8fvHEo1JcOXdPN5n1Tj/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
-            "cap10": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+
+            "cap27": {
+                14: "https://docs.google.com/presentation/d/19g22BA5CVWMyRTVp0PN7En7nrcWtboc1/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1J9IkeZA_ADbDYRaDLS_4_Wx-gDcTlDOB/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1D4si1KOKEbb2q1GBK0BCDa76-P5B1EWF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1_RelKiGwydx9PqSYJBYIn4t7wtU9kMog/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/16vYGRsc7pn_N2y1ClyQZdP0TmF8CbG0C/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/1SJlk04aAzCoBUTQIrHypuoz-7WNBU11k/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/16Jz8DoEezPF9gLF-9bzQXR3-CzVTrRCR/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
             },
-            "cap11": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
+
+            "cap28": {
+                14: "https://docs.google.com/presentation/d/1eQgC2y2ho4WpgaMkomcwB440Xohg4yt_/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                15: "https://docs.google.com/presentation/d/1hUdNjCZxBM188ezZLYRIc_OsFnhCNXb3/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                21: "https://docs.google.com/presentation/d/1vvlZEXVBSE8JT-yqSBUpZtXEuF8D1ZtF/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                16: "https://docs.google.com/presentation/d/1g5O-a6nTEA7f9Cz1ks8XsM2YoA4t1auh/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                17: "https://docs.google.com/presentation/d/1gJreTPj4jvL415ea2ttfKa5olywFrWgm/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                18: "https://docs.google.com/presentation/d/12qp55dhz5b6F9OFag-QZTSUlOgAx7xQ9/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true",
+                20: "https://docs.google.com/presentation/d/1umZ0Nw_nw_7fG7H8lX2zTqMDwsrwEjJi/edit?usp=drive_link&ouid=102717800894254475874&rtpof=true&sd=true"
+            }
+        },
+
+        // ====================================================
+        // TOMO VIII → CAPÍTULOS 29 - 32
+        // ====================================================
+        "tomo-viii": {
+            "cap29": {
+                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",
+                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",
+                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",
+                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link",
+                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link",
+                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link"
             },
-            "cap12": {
-                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",    // Física
-                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",   // Química
-                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",   // Álgebra
-                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link", // Aritmética
-                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link", // Geometría
-                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link" // Trigonometría
-       }
+
+            "cap30": {
+                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",
+                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",
+                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",
+                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link",
+                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link",
+                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link"
             },
+
+            "cap31": {
+                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",
+                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",
+                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",
+                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link",
+                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link",
+                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link"
+            },
+
+            "cap32": {
+                14: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_fisica?usp=drive_link",
+                15: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_quimica?usp=drive_link",
+                16: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_algebra?usp=drive_link",
+                17: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_aritmetica?usp=drive_link",
+                18: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_geometria?usp=drive_link",
+                20: "https://drive.google.com/drive/folders/ejemplo_1ro_tomoI_cap1_trigonometria?usp=drive_link"
+            }
+        }
     }
 };
+
 
 // ============================================================
 // FIN DE LA SECCIÓN DE CONFIGURACIÓN
 // ============================================================
 
-// Lista de cursos (20 asignaturas) con área y descripción
-// Lista de cursos (23 asignaturas) con área y descripción
+
+// ============================================================
+// LISTA DE CURSOS
+// ============================================================
+
 const courses = [
     // Ciencia y Tecnología
-    { id: 14, name: "Física", description: "Movimiento, fuerzas, energía, ondas y electricidad.", icon: "fas fa-atom", color: "#9d4edd", area: "ciencia", availableGrades: ["5touni"] },
-    { id: 15, name: "Química Teoria", description: "Elementos, compuestos, reacciones y tabla periódica.", icon: "fas fa-flask", color: "#fb5607", area: "ciencia", availableGrades: ["5touni"] },
-    { id: 21, name: "Química Practica", description: "Elementos, compuestos, reacciones y tabla periódica.", icon: "fas fa-flask", color: "#fb5607", area: "ciencia", availableGrades: ["5touni"] },
+    {
+        id: 14,
+        name: "Física",
+        description: "Movimiento, fuerzas, energía, ondas y electricidad.",
+        icon: "fas fa-atom",
+        color: "#9d4edd",
+        area: "ciencia",
+        availableGrades: ["5touni"]
+    },
+
+    {
+        id: 15,
+        name: "Química Teoria",
+        description: "Elementos, compuestos, reacciones y tabla periódica.",
+        icon: "fas fa-flask",
+        color: "#fb5607",
+        area: "ciencia",
+        availableGrades: ["5touni"]
+    },
+
+    {
+        id: 21,
+        name: "Química Practica",
+        description: "Elementos, compuestos, reacciones y tabla periódica.",
+        icon: "fas fa-flask",
+        color: "#fb5607",
+        area: "ciencia",
+        availableGrades: ["5touni"]
+    },
+
     // Matemática
-    { id: 16, name: "Álgebra", description: "Expresiones algebraicas, ecuaciones, funciones y polinomios.", icon: "fas fa-square-root-alt", color: "#e63946", area: "matematica", availableGrades: ["5touni"] },
-    { id: 17, name: "Aritmética", description: "Números, operaciones básicas, fracciones, decimales y más.", icon: "fas fa-calculator", color: "#0a4d8c", area: "matematica", availableGrades: ["5touni"] },
-    { id: 18, name: "Geometría", description: "Figuras geométricas, medición, propiedades y transformaciones.", icon: "fas fa-draw-polygon", color: "#3a86ff", area: "matematica", availableGrades: ["5touni"] },
-    { id: 20, name: "Trigonometría", description: "Triángulos, funciones trigonométricas, identidades y aplicaciones.", icon: "fas fa-shapes", color: "#1d3557", area: "matematica", availableGrades: ["5touni"] }
+    {
+        id: 16,
+        name: "Álgebra",
+        description: "Expresiones algebraicas, ecuaciones, funciones y polinomios.",
+        icon: "fas fa-square-root-alt",
+        color: "#e63946",
+        area: "matematica",
+        availableGrades: ["5touni"]
+    },
+
+    {
+        id: 17,
+        name: "Aritmética",
+        description: "Números, operaciones básicas, fracciones, decimales y más.",
+        icon: "fas fa-calculator",
+        color: "#0a4d8c",
+        area: "matematica",
+        availableGrades: ["5touni"]
+    },
+
+    {
+        id: 18,
+        name: "Geometría",
+        description: "Figuras geométricas, medición, propiedades y transformaciones.",
+        icon: "fas fa-draw-polygon",
+        color: "#3a86ff",
+        area: "matematica",
+        availableGrades: ["5touni"]
+    },
+
+    {
+        id: 20,
+        name: "Trigonometría",
+        description: "Triángulos, funciones trigonométricas, identidades y aplicaciones.",
+        icon: "fas fa-shapes",
+        color: "#1d3557",
+        area: "matematica",
+        availableGrades: ["5touni"]
+    }
 ];
 
-// Colores por área (para el borde)
+
+// ============================================================
+// COLORES POR ÁREA
+// ============================================================
+
 const areaColors = {
     sociales: "#e9c46a",
     comunicacion: "#f4a261",
@@ -374,7 +463,11 @@ const areaColors = {
     matematica: "#e76f51"
 };
 
-// Nombres de áreas para mostrar en badge
+
+// ============================================================
+// NOMBRES DE ÁREAS
+// ============================================================
+
 const areaNames = {
     sociales: "Ciencias Sociales",
     comunicacion: "Comunicación",
@@ -382,36 +475,101 @@ const areaNames = {
     matematica: "Matemática"
 };
 
-// Grados (1ro a 5to)
+
+// ============================================================
+// GRADOS
+// ============================================================
+
 const grades = [
-    { id: "5touni", name: "5to UNI", icon: "fas fa-star" }
+    {
+        id: "5touni",
+        name: "5to UNI",
+        icon: "fas fa-star"
+    }
 ];
 
-// Tomos I al VIII
+
+// ============================================================
+// TOMOS I AL VIII
+// ============================================================
+
 const tomos = [
-    { id: "tomo-i", name: "Tomo I", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-ii", name: "Tomo II", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-iii", name: "Tomo III", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-iv", name: "Tomo IV", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-v", name: "Tomo V", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-vi", name: "Tomo VI", icon: "fas fa-book", type: "regular" },
-    { id: "tomo-vii", name: "Tomo VII", icon: "fas fa-bolt", type: "intensivo" }
-    /*{ id: "tomo-viii", name: "Tomo VIII", icon: "fas fa-bolt", type: "intensivo" },
-    { id: "tomo-ix", name: "Tomo IX", icon: "fas fa-bolt", type: "intensivo" }*/
+    {
+        id: "tomo-i",
+        name: "Tomo I",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-ii",
+        name: "Tomo II",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-iii",
+        name: "Tomo III",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-iv",
+        name: "Tomo IV",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-v",
+        name: "Tomo V",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-vi",
+        name: "Tomo VI",
+        icon: "fas fa-book",
+        type: "regular"
+    },
+
+    {
+        id: "tomo-vii",
+        name: "Tomo VII",
+        icon: "fas fa-bolt",
+        type: "intensivo"
+    },
+
+    {
+        id: "tomo-viii",
+        name: "Tomo VIII",
+        icon: "fas fa-bolt",
+        type: "intensivo"
+    }
 ];
 
-// Generar las secciones (capítulos + RETRO) para cada tomo
+
+// ============================================================
+// GENERAR SECCIONES AUTOMÁTICAMENTE
+// ============================================================
+
 const sectionsByTomo = {};
 
 tomos.forEach((tomo, index) => {
 
     // Cada tomo contiene 4 capítulos.
-    // El índice empieza en 0:
-    // Tomo I    = 0 → 1
-    // Tomo II   = 1 → 5
-    // Tomo III  = 2 → 9
-    // ...
-    // Tomo VIII = 7 → 29
+    //
+    // Tomo I    = capítulos 1 - 4
+    // Tomo II   = capítulos 5 - 8
+    // Tomo III  = capítulos 9 - 12
+    // Tomo IV   = capítulos 13 - 16
+    // Tomo V    = capítulos 17 - 20
+    // Tomo VI   = capítulos 21 - 24
+    // Tomo VII  = capítulos 25 - 28
+    // Tomo VIII = capítulos 29 - 32
 
     const startChapter = index * 4 + 1;
 
@@ -420,14 +578,17 @@ tomos.forEach((tomo, index) => {
             id: `cap${startChapter}`,
             name: `Capítulo ${startChapter}`
         },
+
         {
             id: `cap${startChapter + 1}`,
             name: `Capítulo ${startChapter + 1}`
         },
+
         {
             id: `cap${startChapter + 2}`,
             name: `Capítulo ${startChapter + 2}`
         },
+
         {
             id: `cap${startChapter + 3}`,
             name: `Capítulo ${startChapter + 3}`
@@ -435,12 +596,20 @@ tomos.forEach((tomo, index) => {
     ];
 });
 
-// Estado actual
+
+// ============================================================
+// ESTADO ACTUAL
+// ============================================================
+
 let currentGrade = null;
 let currentTomo = null;
 let currentSection = null;
 
-// Elementos DOM
+
+// ============================================================
+// ELEMENTOS DOM
+// ============================================================
+
 const gradeButtonsContainer = document.getElementById('grade-buttons');
 const tomoSelectorDiv = document.getElementById('tomo-selector');
 const tomoButtonsContainer = document.getElementById('tomo-buttons');
@@ -450,150 +619,313 @@ const coursesContainer = document.getElementById('courses-container');
 const currentSelectorSpan = document.getElementById('current-selector');
 const coursesCountSpan = document.getElementById('courses-count');
 
-// Función para generar botones de grados
+
+// ============================================================
+// GENERAR BOTONES DE GRADOS
+// ============================================================
+
 function generateGradeButtons() {
+
     gradeButtonsContainer.innerHTML = '';
+
     grades.forEach(grade => {
+
         const btn = document.createElement('button');
-        btn.className = `selector-btn grade-btn ${currentGrade === grade.id ? 'active' : ''}`;
+
+        btn.className = `selector-btn grade-btn ${
+            currentGrade === grade.id ? 'active' : ''
+        }`;
+
         btn.dataset.id = grade.id;
-        btn.innerHTML = `<i class="${grade.icon}"></i><span>${grade.name}</span>`;
+
+        btn.innerHTML = `
+            <i class="${grade.icon}"></i>
+            <span>${grade.name}</span>
+        `;
+
         btn.addEventListener('click', () => {
+
             currentGrade = grade.id;
             currentTomo = null;
             currentSection = null;
+
             generateGradeButtons();
+
             tomoSelectorDiv.style.display = 'block';
             sectionSelectorDiv.style.display = 'none';
+
             generateTomoButtons();
             updateCurrentSelector();
             renderCourses();
         });
+
         gradeButtonsContainer.appendChild(btn);
     });
 }
 
-// Función para generar botones de Tomos según el grado actual
+
+// ============================================================
+// GENERAR BOTONES DE TOMOS
+// ============================================================
+
 function generateTomoButtons() {
+
     tomoButtonsContainer.innerHTML = '';
+
     if (!currentGrade) return;
+
     tomos.forEach(tomo => {
+
         const btn = document.createElement('button');
-        btn.className = `selector-btn tomo-btn ${currentTomo === tomo.id ? 'active' : ''}`;
+
+        btn.className = `selector-btn tomo-btn ${
+            currentTomo === tomo.id ? 'active' : ''
+        }`;
+
         btn.dataset.id = tomo.id;
-        btn.innerHTML = `<i class="${tomo.icon}"></i><span>${tomo.name}</span>`;
+
+        btn.innerHTML = `
+            <i class="${tomo.icon}"></i>
+            <span>${tomo.name}</span>
+        `;
+
         btn.addEventListener('click', () => {
+
             currentTomo = tomo.id;
+
             currentSection = sectionsByTomo[currentTomo][0].id;
+
             generateTomoButtons();
             generateSectionButtons();
             updateCurrentSelector();
             renderCourses();
+
             sectionSelectorDiv.style.display = 'block';
         });
+
         tomoButtonsContainer.appendChild(btn);
     });
 }
 
-// Función para generar botones de secciones según el tomo actual
+
+// ============================================================
+// GENERAR BOTONES DE SECCIONES
+// ============================================================
+
 function generateSectionButtons() {
+
     sectionButtonsContainer.innerHTML = '';
+
     if (!currentGrade || !currentTomo) return;
+
     const sections = sectionsByTomo[currentTomo];
+
     sections.forEach(section => {
+
         const btn = document.createElement('button');
-        btn.className = `selector-btn section-btn ${currentSection === section.id ? 'active' : ''}`;
+
+        btn.className = `selector-btn section-btn ${
+            currentSection === section.id ? 'active' : ''
+        }`;
+
         btn.dataset.id = section.id;
-        btn.innerHTML = `<i class="fas fa-chapter"></i><span>${section.name}</span>`;
+
+        btn.innerHTML = `
+            <i class="fas fa-chapter"></i>
+            <span>${section.name}</span>
+        `;
+
         btn.addEventListener('click', () => {
+
             currentSection = section.id;
+
             generateSectionButtons();
             updateCurrentSelector();
             renderCourses();
         });
+
         sectionButtonsContainer.appendChild(btn);
     });
 }
 
-// Actualizar el texto del selector actual
+
+// ============================================================
+// ACTUALIZAR SELECTOR ACTUAL
+// ============================================================
+
 function updateCurrentSelector() {
+
     if (!currentGrade) {
-        currentSelectorSpan.innerHTML = `<i class="fas fa-graduation-cap"></i><span>Selecciona un grado para comenzar</span>`;
+
+        currentSelectorSpan.innerHTML = `
+            <i class="fas fa-graduation-cap"></i>
+            <span>Selecciona un grado para comenzar</span>
+        `;
+
         return;
     }
+
     let text = `${grades.find(g => g.id === currentGrade).name}`;
+
     if (currentTomo) {
-        text += ` - ${tomos.find(t => t.id === currentTomo).name}`;
+
+        text += ` - ${
+            tomos.find(t => t.id === currentTomo).name
+        }`;
+
         if (currentSection) {
-            const sectionName = sectionsByTomo[currentTomo].find(s => s.id === currentSection).name;
+
+            const sectionName =
+                sectionsByTomo[currentTomo]
+                    .find(s => s.id === currentSection)
+                    .name;
+
             text += ` - ${sectionName}`;
         }
     }
-    currentSelectorSpan.innerHTML = `<i class="fas fa-graduation-cap"></i><span>${text}</span>`;
+
+    currentSelectorSpan.innerHTML = `
+        <i class="fas fa-graduation-cap"></i>
+        <span>${text}</span>
+    `;
 }
 
-// Renderizar tarjetas de cursos con borde por área
+
+// ============================================================
+// RENDERIZAR TARJETAS DE CURSOS
+// ============================================================
+
 function renderCourses() {
+
     coursesContainer.innerHTML = '';
+
     if (!currentGrade || !currentTomo || !currentSection) {
-        coursesContainer.innerHTML = '<p style="text-align:center; grid-column:1/-1;">Selecciona un grado, tomo y sección para ver los materiales.</p>';
+
+        coursesContainer.innerHTML = `
+            <p style="text-align:center; grid-column:1/-1;">
+                Selecciona un grado, tomo y sección para ver los materiales.
+            </p>
+        `;
+
         coursesCountSpan.textContent = '0';
+
         return;
     }
 
-    const links = driveLinks[currentGrade]?.[currentTomo]?.[currentSection];
+    const links =
+        driveLinks[currentGrade]?.[currentTomo]?.[currentSection];
+
     if (!links) {
-        coursesContainer.innerHTML = '<p style="text-align:center; grid-column:1/-1;">No hay enlaces disponibles para esta selección.</p>';
+
+        coursesContainer.innerHTML = `
+            <p style="text-align:center; grid-column:1/-1;">
+                No hay enlaces disponibles para esta selección.
+            </p>
+        `;
+
         coursesCountSpan.textContent = '0';
+
         return;
     }
 
-    // Filtrar cursos que tienen enlace y están permitidos para el grado actual
+    // Filtrar cursos que tienen enlace
+    // y están permitidos para el grado actual
+
     const availableCourses = courses.filter(course => {
+
         const hasLink = links[course.id] !== undefined;
+
         if (!hasLink) return false;
+
         if (course.availableGrades) {
+
             return course.availableGrades.includes(currentGrade);
         }
+
         return true;
     });
 
     coursesCountSpan.textContent = availableCourses.length;
 
     if (availableCourses.length === 0) {
-        coursesContainer.innerHTML = '<p style="text-align:center; grid-column:1/-1;">No hay materiales disponibles para esta selección.</p>';
+
+        coursesContainer.innerHTML = `
+            <p style="text-align:center; grid-column:1/-1;">
+                No hay materiales disponibles para esta selección.
+            </p>
+        `;
+
         return;
     }
 
     availableCourses.forEach(course => {
+
         const link = links[course.id];
+
         const areaColor = areaColors[course.area];
+
         const areaName = areaNames[course.area];
+
         const card = document.createElement('div');
+
         card.className = 'course-card';
+
         card.style.borderLeftColor = areaColor;
+
         card.innerHTML = `
-            <div class="grade-tomo-section-tag">${currentGrade} / ${currentTomo} / ${currentSection}</div>
-            <div class="area-badge" style="background-color: ${areaColor};">${areaName}</div>
-            <div class="course-logo">
-                <i class="${course.icon}" style="color: ${course.color}"></i>
+            <div class="grade-tomo-section-tag">
+                ${currentGrade} / ${currentTomo} / ${currentSection}
             </div>
+
+            <div
+                class="area-badge"
+                style="background-color: ${areaColor};"
+            >
+                ${areaName}
+            </div>
+
+            <div class="course-logo">
+                <i
+                    class="${course.icon}"
+                    style="color: ${course.color}"
+                ></i>
+            </div>
+
             <div class="course-content">
+
                 <h3>${course.name}</h3>
+
                 <p>${course.description}</p>
-                <a href="${link}" target="_blank" class="drive-link">
-                    <i class="fab fa-google-drive"></i> Acceder al Material
+
+                <a
+                    href="${link}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="drive-link"
+                >
+                    <i class="fab fa-google-drive"></i>
+                    Acceder al Material
                 </a>
+
             </div>
         `;
+
         coursesContainer.appendChild(card);
     });
 }
 
-// Inicialización
+
+// ============================================================
+// INICIALIZACIÓN
+// ============================================================
+
 document.addEventListener('DOMContentLoaded', () => {
+
     generateGradeButtons();
+
     tomoSelectorDiv.style.display = 'none';
+
     sectionSelectorDiv.style.display = 'none';
+
     renderCourses();
 });
