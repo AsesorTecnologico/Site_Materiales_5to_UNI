@@ -402,32 +402,37 @@ const tomos = [
 
 // Generar las secciones (capítulos + RETRO) para cada tomo
 const sectionsByTomo = {};
-tomos.forEach((tomo) => {
-    let sections = [];
-    
-    if (tomo.type === "regular") {
-        // Tomos regulares: numeración continua según el índice
-        const regularIndex = tomos.filter(t => t.type === "regular").indexOf(tomo);
-        const startChapter = regularIndex * 4 + 1; // 1,5,9,13,17,21
-        sections = [
-            { id: `cap${startChapter}`, name: `Capítulo ${startChapter}` },
-            { id: `cap${startChapter + 1}`, name: `Capítulo ${startChapter + 1}` },
-            { id: `cap${startChapter + 2}`, name: `Capítulo ${startChapter + 2}` },
-            { id: `cap${startChapter + 3}`, name: `Capítulo ${startChapter + 3}` }
-        ];
-    } else {
-        // Intensivos: numeración independiente
-        const intensivoIndex = tomos.filter(t => t.type === "intensivo").indexOf(tomo);
-        const startChapter = intensivoIndex * 4 + 1; // 1,5,9
-        sections = [
-            { id: `cap${startChapter}`, name: `Capítulo ${startChapter}` },
-            { id: `cap${startChapter + 1}`, name: `Capítulo ${startChapter + 1}` },
-            { id: `cap${startChapter + 2}`, name: `Capítulo ${startChapter + 2}` },
-            { id: `cap${startChapter + 3}`, name: `Capítulo ${startChapter + 3}` }
-        ];
-    }
-    
-    sectionsByTomo[tomo.id] = sections;
+
+tomos.forEach((tomo, index) => {
+
+    // Cada tomo contiene 4 capítulos.
+    // El índice empieza en 0:
+    // Tomo I    = 0 → 1
+    // Tomo II   = 1 → 5
+    // Tomo III  = 2 → 9
+    // ...
+    // Tomo VIII = 7 → 29
+
+    const startChapter = index * 4 + 1;
+
+    sectionsByTomo[tomo.id] = [
+        {
+            id: `cap${startChapter}`,
+            name: `Capítulo ${startChapter}`
+        },
+        {
+            id: `cap${startChapter + 1}`,
+            name: `Capítulo ${startChapter + 1}`
+        },
+        {
+            id: `cap${startChapter + 2}`,
+            name: `Capítulo ${startChapter + 2}`
+        },
+        {
+            id: `cap${startChapter + 3}`,
+            name: `Capítulo ${startChapter + 3}`
+        }
+    ];
 });
 
 // Estado actual
