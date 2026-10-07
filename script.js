@@ -541,14 +541,14 @@ const tomos = [
         name: "Tomo VII",
         icon: "fas fa-bolt",
         type: "intensivo"
-    },
+    }/*,
 
     {
         id: "tomo-viii",
         name: "Tomo VIII",
         icon: "fas fa-bolt",
         type: "intensivo"
-    }
+    }*/
 ];
 
 
